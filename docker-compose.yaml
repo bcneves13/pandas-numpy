@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  db:
+    image: 'mongo'
+    container_name: MONGO_DB
+    ports:
+      - '27019:27017'
+    volumes:
+      - ./data/db:/data/db
