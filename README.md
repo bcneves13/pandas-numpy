@@ -1,3 +1,4 @@
+### Python Version Python 3.10.7
 ### Create Virtual env
 ```python3 -m venv venv```
 
